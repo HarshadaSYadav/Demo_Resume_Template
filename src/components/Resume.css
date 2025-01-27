@@ -69,7 +69,10 @@ ul {
 .left-section .languages {
     margin-bottom: 30px;
 }
-
+.left-section .contact-info a{
+    font-size: 14px;
+    color:white;
+}
 .left-section h4 {
     text-transform: uppercase;
     font-size: 14px;
