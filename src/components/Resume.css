@@ -1,0 +1,182 @@
+/* Resume.css */
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h2, h3, h4 {
+    margin: 0;
+    font-weight: bold;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.resume-container {
+    display: block; /* Change to block to stack the sections vertically */
+    width: 80%;
+    max-width: 800px; /* Adjust max-width to fit the vertical layout */
+    margin: 40px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Left Section */
+.left-section {
+    width: 100%; /* Full width for vertical layout */
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+}
+
+.left-section .profile-photo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.left-section .profile-photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.left-section h2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.left-section h3 {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: normal;
+    color: #f9c74f;
+}
+
+.left-section .contact-info, 
+.left-section .education, 
+.left-section .skills, 
+.left-section .languages {
+    margin-bottom: 30px;
+}
+
+.left-section h4 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f9c74f;
+    display: inline-block;
+}
+
+.left-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-section ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* Right Section */
+.right-section {
+    width: 100%; /* Full width for vertical layout */
+    padding: 20px;
+}
+
+.right-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+    padding-bottom: 5px;
+    border-bottom: 2.5px solid #f9c74f;
+}
+
+.right-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.right-section .experience, 
+.right-section .projects, 
+.right-section .achievements {
+    margin-bottom: 20px;
+}
+
+.right-section .experience h4, 
+.right-section .projects h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.right-section .experience p, 
+.right-section .projects p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.right-section ul {
+    margin-bottom: 15px;
+}
+
+.right-section ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* Achievements */
+.right-section .achievements ul {
+    padding-left: 20px;
+}
+
+.right-section .achievements ul li {
+    margin-bottom: 5px;
+}
+
+/* Profile Info */
+.right-section .profile-info {
+    margin-bottom: 20px;
+}
+
+.right-section .profile-info p {
+    font-size: 14px;
+    color: #555;
+}
+.fas, .fab {
+  margin-right: 10px; /* Space between icon and text */
+  color: #f9c74f; /* Change the icon color */
+}
+
+.fas:hover, .fab:hover {
+  color: #2c3e50; /* Change color on hover */
+}
+.project-links a {
+    margin-right: 10px;
+    color: #4e4e4e;
+    text-decoration: none;
+  }
+  
+  .project-links a:hover {
+    color: #2c3e50;
+  }
+  
+  .fab, .fas {
+    margin-right: 5px;
+  }
+  
+  .fas:hover, .fab:hover {
+    color: #1abc9c; /* Change color on hover */
+  }
+  
