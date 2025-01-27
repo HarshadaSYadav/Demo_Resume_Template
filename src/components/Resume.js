@@ -16,6 +16,22 @@ const Resume = () => {
          <p> <i className="fas fa-phone-alt"></i>: +123-456-7890</p>
           <p><i className="fas fa-envelope"></i>: hello@reallygreatsite.com</p>
           <p><i className="fas fa-link"></i>: www.reallygreatsite.com</p>
+          <p><a
+              href="https://github.com/your-username"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
+            >
+              <i className="fab fa-github"></i>: https://github.com/username
+            </a></p>
+            <p><a
+              href="https://www.linkedin.com/in/your-linkedin"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
+            >
+              <i className="fab fa-linkedin"></i>: https://www.linkedin.com/in/linkedin
+            </a></p>
         </div>
 
         <div className="education">
